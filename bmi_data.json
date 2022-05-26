@@ -1,0 +1,33 @@
+[
+    {
+        "BMICategory": "Underweight", 
+        "HealthRisk": "Malnutrition Risk",
+        "BmiRange": 18.4
+    },
+    { 
+        "BMICategory": "Normal Weight", 
+        "HealthRisk": "Low Risk",
+        "BmiRange": 21.7
+    },
+    { 
+        "BMICategory": "Overweight", 
+        "HealthRisk": "Enhanced risk",
+        "BmiRange": 27.25
+
+    },
+    { 
+        "BMICategory": "Moderately obese", 
+        "HealthRisk": "Medium risk",
+        "BmiRange": 32.45
+    },
+    {
+        "BMICategory": "Severely obese", 
+        "HealthRisk": "High risk",
+        "BmiRange": 37.45
+    },
+    {
+        "BMICategory": "Very Severely obese", 
+        "HealthRisk": "Very high risk",
+        "BmiRange": 40
+    }
+]

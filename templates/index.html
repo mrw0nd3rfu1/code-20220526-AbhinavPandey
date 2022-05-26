@@ -1,0 +1,43 @@
+
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+
+	</head>
+	
+	<body>
+
+        <form class="grid" action="/" method="POST">
+
+            <table class="table table-striped" >
+                <thead>
+                  <tr>
+                    <th scope="col">id
+                        <hr></th>
+                    <th scope="col">value
+                        <hr></th>
+                  </tr>
+                </thead>
+                <tbody>
+            {% for key, value in response_obj.items() %}
+              <tr>
+                <th scope="row">{{ key }}
+                    <hr></th>
+                <td>{{ value }} 
+                    <hr></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+            </table>
+
+        </form>
+
+        <button onclick="location.href = 'user_input';" id="myButton" class="float-left submit-button" >User Input for BMI calculation</button>
+
+        <br>
+        <br>
+        <br>
+    </body>
+
+</html>
